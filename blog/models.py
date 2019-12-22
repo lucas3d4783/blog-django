@@ -19,3 +19,4 @@ class Post(models.Model):
     def __unicode__(self): #se nao utilizar o matodo, acontece o erro "UnicodeEncodeError: ascii codec can't encode characters in position 0-3: ordinal not in range(128)"
         return self.title
 
+    
